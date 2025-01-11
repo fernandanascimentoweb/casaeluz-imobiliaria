@@ -44,9 +44,9 @@ const NavBar = () => {
           {/* fim icone do x pra fechar */}
           <ul className='flex flex-col items-center gap-2 mt-5 px-5 text-lg font-medium'>
             <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'> Home </a>
-            <a onClick={()=> setshowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'> About </a>
-            <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'> Projects </a>
-            <a onClick={()=> setshowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'> Testimonails </a>
+            <a onClick={()=> setshowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'> Sobre </a>
+            <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'> Projetos </a>
+            <a onClick={()=> setshowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'> Depoimentos </a>
           </ul>
         </div>
     </div>
