@@ -9,7 +9,7 @@ const Contact = () => {
 
     const onSubmit = async (event) => {
       event.preventDefault();
-      setResult("Sending....");
+      setResult("Enviando....");
       const formData = new FormData(event.target);
   
       formData.append("access_key", "0b38669d-9f88-4fcc-bcf8-daf3e214d8ef");
@@ -23,7 +23,7 @@ const Contact = () => {
   
       if (data.success) {
         setResult("");
-        toast.success("Form Submitted Successfully")
+        toast.success("Formulário enviado com sucesso")
         event.target.reset();
       } else {
         console.log("Error", data);
