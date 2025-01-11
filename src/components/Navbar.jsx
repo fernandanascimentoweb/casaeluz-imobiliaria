@@ -46,7 +46,7 @@ const NavBar = () => {
             <a onClick={()=> setshowMobileMenu(false)} href="#Header" className='px-4 py-2 rounded-full inline-block'> Home </a>
             <a onClick={()=> setshowMobileMenu(false)} href="#About" className='px-4 py-2 rounded-full inline-block'> Sobre </a>
             <a onClick={()=> setshowMobileMenu(false)} href="#Projects" className='px-4 py-2 rounded-full inline-block'> Projetos </a>
-            <a onClick={()=> setshowMobileMenu(false)} href="#Testimonails" className='px-4 py-2 rounded-full inline-block'> Depoimentos </a>
+            <a onClick={()=> setshowMobileMenu(false)} href="#Testimonials" className='px-4 py-2 rounded-full inline-block'> Depoimentos </a>
           </ul>
         </div>
     </div>
